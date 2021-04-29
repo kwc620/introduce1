@@ -1,0 +1,62 @@
+/*header*/
+#header { padding: 20px 16px 0 16px; height: 49px; background-color: #ffffff; }
+#header h1{ font-size: 37px; color: #555555; font-weight: bold; float: left; }
+#header h1 span { color: #4CAF50; }
+#header #utilMenu { float: right; }
+#header .login_btn { background: #4CAF50; padding: 6px 14px; color: white; }
+#header .header_desc { padding-top: 20px; padding-right: 20px; }
+
+/*gnb*/
+#gnb { background: #4CAF50; color: #ffffff; box-shadow: 0 2px 5px 0 }
+#gnb ul { overflow: hidden; }
+#gnb ul li { float: left; padding: 16px; font-size: 17px; }
+#gnb ul li:hover { background: white; color: black; cursor: pointer; }
+
+
+/*lnb*/
+#lnb { width: 230px; min-height: calc( 100% - 123px ); border-right: 1px solid #efefef; float: left; }
+#lnb .menu_section {  }
+#lnb .menu_section h5 { padding: 16px 0 10px 16px; font-size: 20px; font-weight: 400; }
+#lnb .menu_section li { padding: 0 16px 0 16px; font-size: 16px; line-height: 24px; }
+#lnb .menu_section li:hover { background: #ccc; cursor: pointer; }
+
+/*contents시작 - 공통부분 정의*/
+#contents { width: calc( 100% - 231px ); float: right; }
+#contents .section.white { background: white; }
+#contents .section.gray { background: #f1f1f1; }
+#contents .section.deep_gray { background: #555555; }
+
+/*Button 정리*/
+#contents .btn_gray { border: none; display: inline-block; background-color: #616161; color: white; padding: 8px 16px; font-size: 16px; margin: 5px 5px 5px 0; vertical-align: middle; text-align: center; }
+#contents .btn_gray:hover { color: black; cursor: pointer; background-color: #cccccc; }
+#contents .btn_green { padding: 8px 16px; vertical-align: middle; display: inline-block; background-color: #4CAF50; color: white;  font-size: 16px; margin: 5px 5px 5px 0; }
+#contents .btn_green:hover { cursor: pointer; border: 1px solid #616161; }
+/*Button 정리 끝*/
+
+/*section1 시작*/
+#contents .section { overflow: hidden; }
+
+/*section2 시작*/
+#contents .section_inner_left { padding: 3%; width: 44%; float: left; }
+#contents .title { text-align: center; }
+#contents .section h1 { font-size: 80px; color: #555555; font-family: "Segoe UI",Arial,sans-serif; margin-top: 2px; margin-bottom: 20px;}
+#contents .section p { color: #3a3a3a; font-size: 24px; font-family: "Segoe UI",Arial,sans-serif; margin-top: 1.2em; margin-bottom: 1.2em;}
+#contents .section_inner_right { padding: 3%; width: 44%; float: right; }
+#contents .layer { padding: 16px; background: #f1f1f1; }
+#contents .section h3 { font-size: 24px; font-family: "Segoe UI",Arial,sans-serif; font-weight: 400; margin: 10px 0; }
+#contents .code_area { border-left: 4px solid #4CAF50; background-color: white; margin: 16px 0; padding: 8px 12px; }
+
+/*section5*/
+#contents .deep_gray.section_inner_left { padding: 3%; width: 44%; float: left; }
+#contents .deep_gray.section_inner_right { padding: 3%; width: 44%; float: right; }
+#contents .ex { text-align: center; }
+#contents .section h2 { font-size: 36px; font-family: "Segoe UI",Arial,sans-serif; font-weight: 400; margin: 10px 0; }
+#contents .section.whiteBox.right { float: right; }
+
+/*section6*/
+#contents .game { padding: 40px 0; text-align: center; }
+#contents .game_brt { margin: 18px 0; }
+
+/*section white section10*/
+#contents .section.white.section10 { display: none; }
+
