@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/cal.css">
+    <script src="../js/cal.js"></script>
+</head>
+<body>
+<div id="contentWrap">
+    <div id="leftPannel">
+        <div id="show">
+            <!--이전 값-->
+            <div id="inputValue0" class="input_value_0">&nbsp;</div>
+            <!--현재 값-->
+            <div id="inputValue1" class="input_value_1">0</div>
+        </div>
+        <div id="btnCon">
+            <div class="btn_row">
+                <button value="back" id="backBtn" class="btnEtc commonBtn">
+                    <img src="../img/delete.png" alt="delete Btn">
+                </button>
+                <button class="btnEtc commonBtn">&nbsp;</button>
+                <button value="C" id="resetBtn" class="btnEtc commonBtn">C</button>
+                <button value="÷" class="btnFormula commonBtn">÷</button>
+            </div>
+            <div class="btn_row">
+                <button value="7" id="7" class="btnNum commonBtn">7</button>
+                <button value="8" id="8" class="btnNum commonBtn">8</button>
+                <button value="9" id="9" class="btnNum commonBtn">9</button>
+                <button value="x" class="btnFormula commonBtn">X</button>
+            </div>
+            <div class="btn_row">
+                <button value="4" class="btnNum commonBtn">4</button>
+                <button value="5" class="btnNum commonBtn">5</button>
+                <button value="6" class="btnNum commonBtn">6</button>
+                <button value="-" class="btnFormula commonBtn">-</button>
+            </div>
+            <div class="btn_row">
+                <button value="1" id="1" class="btnNum commonBtn">1</button>
+                <button value="2" class="btnNum commonBtn">2</button>
+                <button value="3" class="btnNum commonBtn">3</button>
+                <button value="+" class="btnFormula commonBtn">+</button>
+            </div>
+            <div class="btn_row">
+                <button class="btnEtc2 commonBtn">&nbsp;</button>
+                <button value="0" class="btnNum commonBtn">0</button>
+                <button value="." class="btnNum commonBtn">.</button>
+                <button value="=" id="resultBtn" class="commonBtn">=</button>
+            </div>
+        </div>
+    </div>
+    <div id="rightPannel">
+        <div id="nodata">
+            아직 기록이 없음
+        </div>
+        <div id="record">
+            <ul id="logPannel">
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
