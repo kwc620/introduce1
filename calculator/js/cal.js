@@ -99,6 +99,9 @@ function Calculator(){
             if(hap<1) {
                 cValue=cValue+value;
             }
+            if(this.currentInputResetTrigger=="o"){
+                cValue="0.";
+            }
         } else if(value!="."){
             cValue=cValue+value;
         }
